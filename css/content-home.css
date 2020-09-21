@@ -1,0 +1,97 @@
+div.div-con {
+    background-color: #E1E6FA;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+div.div-con div.bgccc {
+    position: absolute;
+        width: 50%;
+        height: 100px;
+        left: 0;
+        bottom: 0;
+        border-bottom: 400px solid #C4D7ED;
+        border-right: 100px solid transparent;    
+}
+
+main a.btn-but {
+    background-color: #183152;
+    color: #fff;
+}
+
+main a.btn-but:hover {
+    color: #fff;
+}
+
+main div.list-post div.row div.post div.profile {
+    display: inline-block;
+    border-radius: 100%;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+main div.list-post div.row div.post div.profile img.img-profile {
+    width: 50px;
+    margin-top: -6px;
+    margin-left: -5px;
+}
+
+main div.list-post {
+    display: flex;
+    overflow: hidden;
+}
+
+main div.list-post div.row {
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+main div.list-post div.row div.post {
+    border: 1px solid black;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+main h2.top-post {
+    text-align: center;
+}
+
+h1.welcome {
+    font-size: 30px;
+}
+
+main .all-information .row .information .box-information {
+    max-width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .all-information .row .information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .all-information .row .information .box-information i {
+    font-size: 100px;
+    color: #375D81;
+}
+
+main .all-information .row .information .box-information .log-in-out {
+    display: flex;
+}
+
+main .all-information .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
